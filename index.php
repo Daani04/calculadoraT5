@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $resultado = ($num1 >= 0) ? $calc->raiz($num1) : "Error: No se puede calcular raíz de número negativo";
             break;
         default:
-            $resultado = "Operación no válida.";
+            $resultado = "Operación no válidaa.";
     }
 }
 ?>
